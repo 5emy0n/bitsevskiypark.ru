@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Битцевского парка</title>
+    <link rel="stylesheet" href="assets/css/index-style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo">Битцевский парк</a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li class="subnav">
+                    <p class="subnavbtn">О парке <i class="fa fa-caret-down"></i></p>
+                    <div class="subnav-content">
+                        <a href="#">История</a>
+                        <a href="#">Карта парка</a>
+                        <a href="#">Как добраться</a>
+                        <a href="#">Экоцентр</a>
+                    </div>
+                </li>
+                <li class="subnav">
+                    <p class="subnavbtn">Природа <i class="fa fa-caret-down"></i></p>
+                    <div class="subnav-content">
+                        <a href="#">Растительность</a>
+                        <a href="#">Животный мир</a>
+                    </div>
+                </li>
+                <li class="subnav">
+                    <p class="subnavbtn">Отдых <i class="fa fa-caret-down"></i></p>
+                    <div class="subnav-content">
+                        <a href="#">Что посмотреть</a>
+                        <a href="#">Прогулки</a>
+                        <a href="#">Детям</a>
+                        <a href="#">Шашлык</a>
+                    </div>
+                </li>
+                <li class="subnav">
+                    <p class="subnavbtn">Спорт <i class="fa fa-caret-down"></i></p>
+                    <div class="subnav-content">
+                        <a href="#">Маршруты</a>
+                        <a href="#">Тренажёры</a>
+                    </div>
+                </li>
+                <li><a href="#" id="alone-a">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Header -->
+    <img src="assets/images/header-image.png" draggable="false" id="header-image">
+    <!-- Content -->
+    <div class="content-wrapper">
+        <p id="welcome-text">ДОБРО ПОЖАЛОВАТЬ!</p>
+        <div class="about-park-wrapper">
+            <img src="assets/images/about-park.png" draggable="false" id="about-park-image">
+            <div id="about-park-text-wrapper">
+                <h2 id="about-park-title">О парке</h2>
+                <p id="about-park-text">Природно-исторический парк "Битцевский лес" - особо охраняемая территория, второй по величине парк в Москве после Лосиного острова. Находится на юго-западе Москвы, сразу в нескольких районах города и имеет площадь более 2200 га. Лесопарк пользуется большим вниманием жителей столицы и гостей региона: здесь находится множество природных и исторических достопримечательностей, проложены тропинки и велодорожки для активного отдыха и стоит большое количество лавочек. Благодаря этому в Битцевском парке любят проводить время люди всех возрастов.</p>
+                <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D1%82%D1%86%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BB%D0%B5%D1%81" class="button" target="_blank">Подробнее</a>
+            </div>
+        </div>
+        <div class="three-logos-wrapper">
+            <div class="logo-section">
+                <img src="assets/logo/trees-logo.png">
+                <p class="logo-title">Лес</p>
+                <p class="logo-text">Крупный лесной массив парка отличается высоким природным разнообразием, наличием редких и уязвимых растений и животных.</p>
+            </div>
+            <div class="logo-section">
+                <img src="assets/logo/parking-logo.png">
+                <p class="logo-title">Инфраструктура</p>
+                <p class="logo-text">На многих аллеях парка расположены лавочки, по краям парка оборудованы общественные туалеты и бесплатные автопарковки.</p>
+            </div>
+            <div class="logo-section">
+                <img src="assets/logo/cycling-logo.png">
+                <p class="logo-title">Активный отдых</p>
+                <p class="logo-text">Парк отлично подходит для прогулок с детьми и их родителями, прогулок на велосипедах и других личных транспортных средств.</p>
+            </div>
+        </div>
+    </div>
+    <div id="parallax-1" class="parallax"></div>
+    <div class="content-wrapper">
+        <h2 id="more-about-park">Узнайте о парке <span>больше</span></h2>
+        <div class="more-about-park-big-container">
+            <a href="#"><div class="more-about-park-small-container container1">История парка</div></a>
+            <a href="#"><div class="more-about-park-small-container container2">Животный мир</div></a>
+            <a href="#"><div class="more-about-park-small-container container3">Маршруты</div></a>
+        </div>
+        <div class="more-about-park-big-container">
+            <a href="#"><div class="more-about-park-small-container container4">Что посмотреть</div></a>
+            <a href="#"><div class="more-about-park-small-container container5">Карта парка</div></a>
+            <a href="#"><div class="more-about-park-small-container container6">Экоцентр</div></a>
+        </div>
+    </div>
+
+    <iframe class="yandex_maps" src="https://yandex.ru/map-widget/v1/?um=constructor%3A759a38e97e093ba6abe42fdbae936092cc649cc9b81ae1e0889a644cb6656d2d&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+
+    <footer>
+        <b>2024-2025 © Битцевский парк. Все права защищены.</b>
+        <b>Web-development by 5emy0n.</b>
+    </footer>
+    
+    <script src="assets/js/index-app.js"></script>
+</body>
+</html>
